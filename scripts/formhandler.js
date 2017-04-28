@@ -16,7 +16,7 @@
     }
 
     FormHandler.prototype.addSubmitHandler = function (fn) {
-      console.log('Setting submit handler for form');
+        console.log('Setting submit handler for form');
         this.$formElement.on('submit', function (event) {
             event.preventDefault();
 
@@ -33,7 +33,7 @@
     };
 
     FormHandler.prototype.addInputHandler = function (fn) {
-      console.log('Setting input handler for form');
+        console.log('Setting input handler for form');
         this.$formElement.on('input', '[name="emailAddress"]', function (event) {
             var emailAddress = event.target.value;
             var message = '';
