@@ -17,9 +17,13 @@ Is json-server installed and running?
 Is SERVER_URL pointing to json-server?
 -yes
 Does the CheckList show the orders stored in the back-end service?
+-yes
 Are you able to add rows to the CheckList by submitting the order form?
+-yes
 Are you able to make deliveries by clicking rows in the CheckList?
+-yes
 Are you able to see orders being added and removed from db.json?
+-yes
 Has the code been updated to use Promise objects with the local DataStore?
 Has the code been updated to use Deferred objects with the RemoteDataStore?
 Do you have a new repository for this assignment?
